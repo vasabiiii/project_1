@@ -1,0 +1,19 @@
+@import url("base/reset.css");
+@import url("components/aboutus.css");
+@import url("components/background.css");
+@import url("components/firstback.css");
+@import url("components/third.css");
+@import url("components/team.css");
+@import url("components/matches.css");
+@import url("components/doomback.css");
+@import url("components/blank.css");
+@import url("components/subs.css");
+@import url("components/last.css");
+@import url("components/srch.css");
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+

@@ -1,0 +1,174 @@
+.third_div{
+    text-align: center;
+    margin-top: 5%;
+    color: aliceblue;
+}
+#third_div_firsttext
+{
+    margin-left: 2%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    margin-bottom: 2%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.third_div_sectext
+{
+    color: rgb(132, 132, 132);
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+.third_div_bloodttext
+{
+    margin-bottom: 1%;
+}
+.third_div_blocks{
+    margin: 5% 7%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.third_div_blocks img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.tblock_one
+{
+    position: relative;
+   
+}
+.tblock_two{
+    position: relative;
+}
+.tblock_three
+{
+    position: relative;
+}
+.tblock_four
+{
+    position: relative;
+}
+
+.ttext_one{
+    padding: 10% 4.5%;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    width: 80%;
+    height: 75%;
+   
+    display: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    
+    flex-direction:column;
+    transition: 0.5s;
+    
+   
+}
+
+.tblock_one:hover .ttext_one
+{
+   display: block;
+   
+}
+
+.ttext_two{
+    padding: 10% 4.5%;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    width: 80%;
+    height: 75%;
+    
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    display: none;
+    flex-direction:column;
+}
+.tblock_two:hover .ttext_two
+{
+    display: block;
+}
+.ttext_three{
+    padding: 10% 3.9%;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    width: 80%;
+    height: 75%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    display: none;
+    flex-direction:column;
+}
+.tblock_three:hover .ttext_three
+{
+    display: block;
+}
+.ttext_four{
+    padding: 10% 3.5%;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    width: 80%;
+    height: 75%;
+    
+    background-color: rgba(0, 0, 0, 0.555);
+    display: none;
+    flex-direction:column;
+}
+.tblock_four:hover .ttext_four
+{
+    display: block;
+   
+}
+.stars
+{
+    display: flex;
+    color: rgba(207, 220, 18, 0.833);
+   
+}
+.text
+{
+
+margin-top: 50%;
+    margin-bottom: 20%;
+    font-size: 25px;
+}
+.star:not(:last-child)
+{
+    margin-right: 5%;
+
+}
+.star:first-child
+{
+    margin-left: 19%;
+}
+
+@media(max-width:1200px)
+{
+    .tblock_four
+    {
+        display: none;
+    }
+}
+@media(max-width:765px)
+{
+    .tblock_three
+    {
+        display: none;
+    }
+}
+@media(max-width:575px)
+{
+    .tblock_two
+    {
+        display: none;
+    }
+}

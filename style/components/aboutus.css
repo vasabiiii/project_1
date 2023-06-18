@@ -1,0 +1,281 @@
+.second_div_about_us
+{position: relative;
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: 25%;
+}
+
+.second_div_about_us_main
+{margin-left: 2%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    margin-bottom: 2%;
+    
+}
+.second_div_about_us_middle
+{
+    width: 60%;
+    margin-left: 21%;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(150, 150, 150);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second_div_about_us_blood
+{
+    text-align: center;
+    margin-top: 1.5%;
+    padding-left: 2%;
+
+}
+.second_div_about_us_two
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 11%;
+    
+    
+}
+
+.second_div_about_us_two_image
+{
+   width: 25%;
+   margin-left: 10%;
+   
+}
+.second_div_about_us_two_image img{
+    width: 120%;
+}
+
+
+.second_div_about_us_two_text
+{
+    margin-left: 12%;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+.second_div_about_us_two_text_first
+{
+    font-size: 37px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 55px;
+    margin-bottom: 5%;
+    font-weight: bold;
+    color: rgb(219, 219, 219);
+    
+}
+.second_div_about_us_two_text_second
+{
+    font-size: 20px;
+    color: rgb(182, 181, 181);
+    line-height: 30px;
+    width: 78%;
+    text-align: left;
+    margin-bottom: 4%;
+}
+.second_div_about_us_two_text_third
+{
+    display: flex;
+    flex-direction: column;
+}
+.second_div_about_us_two_text_third_metka
+{
+    
+    display: flex;
+    width: 40%;
+    justify-content: flex-start;
+    margin-bottom: 2%;
+    
+
+}
+.second_div_about_us_two_text_third_metka_text
+{
+     color: rgb(182, 181, 181);
+     font-size: 18px;
+    
+    
+}
+.second_div_about_us_two_text_third_metka_icon
+{
+    color: rgb(190, 9, 9);
+    margin-right: 5%;
+}
+
+.second_div_about_us_two_text_button
+{
+   margin-top: 5%;
+   transform: skew(-10deg);
+   transition: 0.5s;
+}
+.second_div_about_us_two_text_button:hover 
+{
+    transform: skew(10deg);
+}
+.second_div_about_us_two_text_button2{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 5%;
+    background-color: rgb(52, 52, 52);
+    width: 15%;
+    padding:  2% 3%;
+    text-align: center;
+    transition: 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+   
+}
+
+.second_div_about_us_two_text_button2:hover{
+    background-color: rgb(143, 6, 6);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+  
+}
+
+#top2{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    width: 100%;
+    
+    z-index: 3;
+}
+.second_div_about_us_blocks
+{
+    margin-left: 8.5%;
+    margin-top: 17%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   margin-right: 8.5%;
+   
+   
+ 
+ 
+}
+.second_div_about_us_blocks_text
+{
+    width: calc(5% - 10px);
+   text-align: center;
+   background-color: rgb(32, 32, 32);
+   padding: 3% 11%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   transition: 0.6s;
+   box-sizing: border-box;
+   
+}
+.second_div_about_us_blocks_text:hover{
+    margin-top: -1%;
+    background-color: rgb(50, 50, 50);
+
+}
+.second_div_about_us_blocks_text:not(:last-child)
+{
+    margin-right: 3%;
+}
+.second_div_about_us_block_text_1
+{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15%;
+    color: rgb(162, 8, 8);
+    transition: 0.5s;
+}
+.second_div_about_us_block_text_2{
+    font-size: 25px;
+    color: rgb(160, 159, 159);
+    transition: 0.5s;
+    
+   
+}
+.second_div_left_scroll
+{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 30px;
+    color: azure;
+    transition: 0.3s;
+
+}
+.second_div_right_scroll
+{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 30px;
+    color: azure;
+    transition: 0.3s;
+}
+.second_div_right_scroll:hover
+{
+color: brown;
+}
+.second_div_left_scroll:hover
+{
+color: brown;
+}
+
+@media(max-width:900px)
+{
+    .second_div_about_us_two
+    {
+        margin-bottom: 30%;
+        flex-direction: column;
+    }
+    .second_div_about_us_two_image
+    {
+       text-align: center;
+       width: 50%;
+    }
+    .second_div_about_us_blocks_text
+    {
+        width: calc( 40% - 10px );
+        margin-bottom: 10%;
+    }
+    .second_div_about_us_blocks_text:last-child
+    {
+        margin-right: 3%
+    }
+
+}
+@media(max-width:765px)
+{
+   .second_div_about_us_two
+   {
+    flex-wrap: wrap;
+   }
+   .second_div_about_us_two_image
+   {
+    display: none;
+   }
+}
+
+@media(max-width:550px)
+{
+    .second_div_about_us_block_text_1
+    {
+        font-size: 20px;
+        
+    }
+    .second_div_about_us_block_text_2
+    {
+        font-size: 15px;
+       
+    }
+}
+
+
+
+

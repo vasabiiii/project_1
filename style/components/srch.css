@@ -1,0 +1,168 @@
+#srch
+{
+    position: fixed;
+    top: 12%;
+    width: 100%;            
+    background-color: aliceblue;
+    display: none;
+    z-index: 5;
+}
+.ssrch
+{
+    position: absolute;
+    top:5%;
+    right: 1%;
+    background-color: rgba(13, 13, 13, 0.421);
+    z-index: 2;
+    display: flex;
+    padding: 2%;
+    border-radius: 10px;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    font-weight: 700;
+    width: 30%;
+    
+}
+.ssrch_input
+
+{
+    margin-left: 10%;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 50%;
+
+}
+.ssrch_exit
+{
+    border-radius: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:4%;
+    right: 1%;
+    z-index: 3;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid rgba(245, 245, 220, 0);
+    transition: 0.4s;
+}
+.ssrch_exit:hover{
+    color: rgb(235, 21, 21);
+}
+.ssrch_send
+{
+    position: absolute;
+    top:75%;
+    right: 10%;
+    width: 13%;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    transition: 0.3s;
+    
+}
+.ssrch_send:hover{
+    background-color: rgb(139, 5, 5);
+    color: black;
+}
+
+
+
+
+
+#contwindow
+{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.711);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+}
+.contwindow_childin
+{
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 10%;
+   
+   
+}
+.contwindow_childintxt{
+   
+    font-size: 120%;
+}
+.contwindow_child{
+    background-color: rgba(0, 0, 0, 0.873);
+    padding: 5%;
+    position: relative;
+}
+.contwindow_close
+{
+    position: absolute;
+    top:4%;
+    right: 5%;
+    width: 3.8%;
+    transition: 0.3s;
+}
+.contwindow_close:hover
+{
+    color: black;
+    background-color: brown;
+    border-radius: 7px;
+}
+.contwindow_send{
+    position: absolute;
+    right: 12%;
+    width: 12%;
+    transition:0.3s ;
+}
+.contwindow_send:hover
+{
+    background-color: brown;
+    color: black;
+    border-radius: 7px;
+}
+#contwindow_childintxttt{
+    width: 50%;
+}
+#contwindow_childintxtt{
+    width: 50%;
+}
+
+#excellent{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.577);
+    z-index: 2;
+}
+.excel{
+    background-color: rgba(0, 0, 0, 0.796);
+    width: 40%;
+    height: 30%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 150%;
+    position: relative;
+}
+.excel-close{
+    position: absolute;
+    top:8%;
+    right: 3%;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.excel-close:hover{
+    color: brown;
+}

@@ -1,0 +1,109 @@
+.doomback
+{
+    margin: 1% 10%;
+    background-color: rgb(95, 96, 96);
+    background-image: url("../../image/protocol.jpg");
+    z-index: -1;
+   
+    object-fit: cover;
+    
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.dtext
+{
+    padding-left: 5%;
+    color: azure;
+    font-size: 40px;
+    z-index: 2;
+}
+
+.dfirst
+{
+    font-size: 20px;
+    color: rgb(170, 9, 9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+
+}
+.dsecond
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 60%;
+    font-size: 40px;
+}
+.dthird
+{
+    color: rgb(119, 119, 120);
+    font-size: 20px;
+    width: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dfourth
+{
+    background-color: rgb(47, 47, 47);
+    width: 15%;
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1.5% 0 1.5% 2%;
+    transform: skew(-10deg);
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+.dfourth:hover 
+{
+    transform: skew(10deg); 
+    background-color: rgb(144, 21, 21);
+}
+.dfourth:hover .dtextfor
+{
+    color: black;
+}
+
+.dtextfor
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+.dtext:first-child
+{
+    margin-top: 10%;
+}
+.dtext:last-child
+{
+    margin-bottom: 15%;
+}
+.dtext:not(:last-child)
+{
+    margin-bottom: 3%;
+}
+
+@media (max-width:1090px)
+{
+    .dtextfor
+    {
+        font-size: 10px;
+    }
+}
+@media (max-width:550px)
+{
+    .dtextfor
+    {
+        font-size: 5px;
+    }
+}

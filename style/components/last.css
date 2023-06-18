@@ -1,0 +1,66 @@
+.last
+{
+    background-color: rgb(35, 35, 35);
+    position: sticky;
+    top:938%;
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+}
+
+.ltext
+{
+    margin: 2% 8%;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lblank
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 8%;
+    align-items: center;
+
+
+}
+.lworda{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+}
+#ll{
+    position: absolute;
+    top: 850%;
+}
+.lword:not(:last-child)
+{
+    margin-right: 10%;
+    
+}
+
+.lworda:hover
+{
+    color: rgb(192, 15, 15);
+}
+
+@media(max-width:480px)
+{
+    .lblank
+    {
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:920px)
+{
+    .last
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+}

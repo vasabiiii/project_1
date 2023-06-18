@@ -1,0 +1,110 @@
+.subscribe
+{
+    background-color: rgb(19, 19, 19);
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+
+.stext
+{
+    margin: 6% 6%;
+    font-size: 45px;
+    color: rgb(178, 1, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.search
+{
+    margin: 6% 7%;
+    
+}
+.ssearch
+{
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+}
+.sbutton
+{
+    background-color: rgb(60, 60, 60);
+    color: aliceblue;
+    font-size: 25px;
+    border: 0ch;
+    padding: 5% 0;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.sinput
+{
+    background: none;
+    font-size: 20px;
+    padding: 5% 0;
+    color: aliceblue;
+    
+}
+.sbutton:hover 
+{
+    background-color: rgb(173, 9, 9);
+    color:rgb(33, 33, 33);
+}
+
+@media(max-width:700px)
+{
+    .subscribe
+    {
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:920px)
+{
+    .last
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:350px)
+{
+    .sinput
+    {
+        font-size: 15px;
+    }
+    .sbutton
+    {
+        font-size: 15px;
+    }
+}
+@media(max-width:270px)
+{
+    .sinput
+    {
+        font-size: 10px;
+    }
+    .sbutton
+    {
+        font-size: 10px;
+    }
+    .stext
+    {
+        font-size: 39px;
+    }
+}
+@media(max-width:210px)
+{
+    .sinput
+    {
+        font-size: 7px;
+    }
+    .sbutton
+    {
+        font-size: 7px;
+    }
+    .stext
+    {
+        font-size: 30px;
+    }
+}

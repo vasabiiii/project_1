@@ -1,0 +1,44 @@
+.blank
+{
+    background-color: rgba(31, 31, 31, 0.696);
+    height: 42%;
+    margin: 10% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bblank
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bimg img{
+    width: 50%;
+    margin: 10% 20%;
+}
+.oni img{
+    border-radius: 100%;
+}
+
+@media (max-width:1200px)
+{
+    .bfive
+    {
+        display: none;
+    }
+    .bsix
+    {
+        display: none;
+    }
+}
+
+@media (max-width:765px)
+{
+    .bthree
+    {
+        display: none;
+    }
+}
